@@ -22,4 +22,4 @@ Every time a message is sent in, an event is pushed to the Event Tracker Singlet
 * The run method uses a while loop that continues to run as long as "readyToQuit" returns false
 * Ready to quit returns true if there is a "quit" event in the event tracker
 * The should reply method returns true if the event tracker has a message the listener is listening for
-* In the while loop, if should reply returns true, the Tracker has its "handle" method called passing in an instance of EventHandler. The Handler prints out the reply# thread-event-handlers
+* In the while loop, if should reply returns true, the Tracker has its "handle" method called passing in an instance of EventHandler. The Handler prints out the reply thread-event-handlers
